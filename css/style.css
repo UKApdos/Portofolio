@@ -19,7 +19,7 @@
     margin: 0 auto;
     text-align: center;
     position: relative;
-    border: 1px solid white;
+    border: 2px solid seagreen;
     color: white;
 }
 
@@ -37,6 +37,7 @@ span {
     width: 75%;
     margin: 0 auto;
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 .profile img {
@@ -47,9 +48,139 @@ span {
 .skills {
     width: 75%;
     margin: 0 auto;
+    padding: 2rem 0 2rem 0;
 }
 
 .skills img {
-    width: 150px;
-    padding: 2rem 0;
+    width: 100px;
+    
+}
+
+.skills-row {
+    width: 75%;
+    margin: 2rem auto 5rem auto;
+}
+
+.skills-image1 {
+    float: left;
+    margin-right: 2rem;
+    clip-path: circle(50%);
+}
+
+.skills-image2 {
+    float: right;
+    margin-left: 2rem;
+}
+
+.contact-me {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bottom-container {
+    background-color: var(--background-color);
+    height: 18vh;
+    text-align: center;
+    color: wheat;
+    padding-top: 1rem;
+}
+
+.skillsheader {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    color: black;
+    position: absolute;
+    text-decoration: none;
+    border: 2px solid black;
+    transform: translate(-50%, -50%);
+    top: 139%;
+    padding: 0.2rem
+}
+
+.footer-link1 {
+    display: inline-block;
+    color: black;
+    position: absolute;
+    text-decoration: none;
+    border: 2px solid black;
+    transform: translate(-50%, -50%);
+    top: 147%;
+    padding: 0.2rem
+}
+
+.footer-link2 {
+    display: inline-block;
+    color: black;
+    position: absolute;
+    text-decoration: none;
+    border: 2px solid black;
+    transform: translate(-157%, -50%);
+    top: 147%;
+    padding: 0.2rem
+}
+
+.footer-link3 {
+    display: inline-block;
+    color: black;
+    position: absolute;
+    text-decoration: none;
+    border: 2px solid black;
+    transform: translate(70%, -50%);
+    top: 147%;
+    padding: 0.2rem
+}
+
+.cloud1 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    animation-name: cloud1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.cloud2 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    animation-name: cloud2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.cloud3 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    animation-name: cloud3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cloud1 {
+    0% {left: 5%; top: 10%}
+    25% {left: 6%; top: 11%}
+    50% {left: 5%; top: 9%}
+    75% {left: 5%; top: 8%;}
+    100% {left: 5%; top: 10%}
+}
+
+@keyframes cloud2 {
+    0% {left: 50%; top: 10%}
+    25% {left: 58%; top: 11%}
+    50% {left: 55%; top: 9%}
+    75% {left: 55%; top: 8%;}
+    100% {left: 50%; top: 10%}
+}
+
+@keyframes cloud3 {
+    0% {left: 30%; top: 37%}
+    25% {left: 30%; top: 35%}
+    50% {left: 30%; top: 33%}
+    75% {left: 30%; top: 35%;}
+    100% {left: 30%; top: 37%}
 }
